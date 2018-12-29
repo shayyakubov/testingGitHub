@@ -16,6 +16,7 @@ public class Email {
         this.lastName = lastName;
         Logger logger = Logger.getLogger("emailAppLogger");
         logger.log(Level.FINE, "Created new Email for " + firstName + " " + lastName);
+        //
     }
     //Ask or set the department
 
